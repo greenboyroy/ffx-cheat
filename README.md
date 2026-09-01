@@ -21,22 +21,22 @@ Turns out they are simply memory pokes so they could be ported to run natively t
 * Next is probably the most scary part, giving the script you want permission to run. Right-click some empty space in the current folder and select 'Open Terminal Here'. This will open a new window with a prompt.
 * Enter the command for the script you want to run. You only need **ONE** of these:
   
-  `chmod +x ffx_launch_ap_sensor.sh`
+  ```chmod +x ffx_launch_ap_sensor.sh```
   **OR**
-  `chmod +x ffx_launch_ap_only.sh`
+  ```chmod +x ffx_launch_ap_only.sh```
   **OR**
-  `chmod +x ffx_launch_sensor_only.sh`
+  ```chmod +x ffx_launch_sensor_only.sh```
   
 * Press enter. If you typed the command in properly, you should just get a new line waiting for another prompt. If you got an error, you probably did something wrong but do a quick Google search to check before trying again.
 * OK, you can close the file manager and terminal windows now. Let's open the desktop version of Steam, which should be at the top of the screen.
 * Go to the FFX game page in your library and open the game properties. These can be found by clicking the cog icon opposite the Play button.
 * Under 'Launch Options' enter the **ONE** of these commands which relates to the script you want to run:
   
-  `/home/deck/ffx_cheat/ffx_launch_ap_sensor.sh %command%`
+  ```/home/deck/ffx_cheat/ffx_launch_ap_sensor.sh %command%```
   **OR**
-  `/home/deck/ffx_cheat/ffx_launch_ap_only.sh %command%`
+  ```/home/deck/ffx_cheat/ffx_launch_ap_only.sh %command%```
   **OR**
-  `/home/deck/ffx_cheat/ffx_launch_sensor_only.sh %command%`
+  ```/home/deck/ffx_cheat/ffx_launch_sensor_only.sh %command%```
   
 * Close the properties window.
 * Click the Play button to test, let it cook for a sec when it's launching. Select FFX from the launcher and play as normal. If everything is working, in battle you should be able to see if you have sensor if you can always see the enemy XP and elemental weaknesses without any sensor abilities. At the end of a battle everyone in the party should get AP, even if you didn't use them.
