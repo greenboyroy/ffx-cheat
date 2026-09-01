@@ -8,7 +8,7 @@ Turns out they are simply memory pokes so they could be ported to run natively t
 
 **Please read the setup instructions and the disclaimer fully before trying to install! Yes, it seems like there is a lot of words but I'm trying to make it useful for the less nerdy among us.**
 
-## Setup (this is a WIP, I need to finalise this)
+## Setup
 
 * From Steam, download FFX HD Remaster and run the game from the launcher, at least once.
 * Switch to desktop mode and open [this repo](https://github.com/greenboyroy/ffx-cheat) from a browser (you might need to install Firefox if you haven't already).
